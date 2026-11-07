@@ -1,0 +1,17 @@
+.git
+.github
+node_modules
+dist
+artifacts
+test-results
+playwright-report
+blob-report
+coverage
+.tmp-*
+*.local
+*.log
+*.tsbuildinfo
+.env
+.env.*
+.DS_Store
+Thumbs.db

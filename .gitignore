@@ -1,0 +1,18 @@
+# Glimmer | Copyright (c) jvz.
+
+node_modules/
+dist/
+artifacts/
+test-results/
+playwright-report/
+blob-report/
+coverage/
+.tmp-*/
+*.local
+*.log
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

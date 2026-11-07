@@ -1,0 +1,7 @@
+services:
+  glimmer:
+    image: glimmer:local
+    build: .
+    ports:
+      - "${GLIMMER_PORT:-8080}:80"
+    restart: unless-stopped
